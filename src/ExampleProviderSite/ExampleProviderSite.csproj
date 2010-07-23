@@ -96,8 +96,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Services\IOAuthServices.asax.cs" />
-    <Compile Include="Services\OAuthServicesLocator.asax.cs" />
+    <Compile Include="Services\IOAuthServices.cs" />
+    <Compile Include="Services\OAuthServicesLocator.cs" />
     <Compile Include="Repositories\ContactsRepository.cs" />
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

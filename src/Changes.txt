@@ -1,0 +1,32 @@
+23rd July 2009
+--------------
+
+Split examples into there own project.  Now builds against a compiled version of DevDefined.OAuth.dll.
+Moved code to github - now located at: http://github.com/bittercoder/DevDefined.OAuth-Examples
+
+31st July 2009
+--------------
+
+Fixed bug that allowed oauth_token_secret to be transmitted from the consumer to the provider.
+Fixed bug that meant provider would not work with plain text signature method, unless oauth_token_secret was sent by the client.
+Fixed the ExampleConsumerSite and ExampleProviderSite to implement a working OAuth 1.0a exchange of tokens etc.
+Apply General code cleanup.
+
+30th July 2009
+--------------
+
+Moved the "basic" storage implementation into the core library.
+Updated consumer implementation to support OAuth 1.0a.
+Updated the provider implementation to support OAuth 1.0a.
+
+Note: Provider example still needs updating to be 1.0a compliant.
+
+17th November 2008
+------------------
+
+Added WCF code and example channel from Pablo Cibraro (http://weblogs.asp.net/cibrax/).
+Organised code into 2 solution folders - core implementation - and examples.
+Added changes file to track overall logical changes.
+Moved MIT license into code region, so it'll collapse.
+Signed the core assembly (can't sign WCF at the moment, because Microsoft.ServiceModel.Web.dll is unsigned).
+
