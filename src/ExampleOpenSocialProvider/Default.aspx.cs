@@ -1,4 +1,4 @@
-﻿#region License
+#region License
 
 // The MIT License
 //
@@ -24,14 +24,25 @@
 
 #endregion
 
-using System.Reflection;
-using System.Runtime.InteropServices;
+using System;
+using System.Web.UI;
 
-[assembly: AssemblyTitle("OpenSocialProviderSite")]
-[assembly: AssemblyDescription("Example of implementing an OpenSocial service (using 2-legged OAuth)")]
-[assembly: AssemblyCompany("DevDefined Limited")]
-[assembly: AssemblyProduct("DevDefined.OAuth")]
-[assembly: AssemblyCopyright("Copyright © DevDefined Limited 2008")]
-[assembly: ComVisible(false)]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+namespace ExampleOpenSocialProvider
+{
+  public partial class _Default : Page
+  {
+    protected void Page_Load(object sender, EventArgs e)
+    {
+    }
+
+		protected string OpenSocial3LeggedOathV08GadgetUrl
+		{
+			get { return UrlUtility.ToAbsolute("~/OpenSocial3LeggedOathV08Gadget.aspx"); }
+		}
+
+  	protected string OpenSocialAuthorizaedV08GadgetUrl
+  	{
+			get { return UrlUtility.ToAbsolute("~/OpenSocialAuthorizaedV08Gadget.aspx"); }
+  	}
+  }
+}

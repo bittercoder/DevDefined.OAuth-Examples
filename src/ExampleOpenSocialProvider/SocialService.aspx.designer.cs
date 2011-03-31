@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OpenSocialProviderSite {
+namespace JiraConsumerStore {
     
     
     public partial class SocialService {

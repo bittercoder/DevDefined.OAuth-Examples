@@ -9,11 +9,12 @@ The DevDefined.OAuth project can be found here: [2]
 Current Examples
 ----------------
 
-We currently have 3 examples in this project:
+We currently have 4 examples in this project:
 
  * ExampleConsumerSite - a simple webforms site - demonstrating an OAuth consumer for consuming an OAuth service that lists contacts (email addresses etc.)
  * ExampleOAuthChannel - a simple WCF service - demonstrating an OAuth provider which securies a WCF service.
  * ExampleProviderSite - a simple webforms site - demonstrating an OAuth provider which exposes a simple contacts service via an aspx page (Data.aspx).
+ * ExampleOpenSocialProvider - an example showing 2 open social gadgets, one that provides access to requested data via 3-legged OAuth, and another that just validates signed requests.
  
 Still to do
 -----------
@@ -24,5 +25,5 @@ Still to do
  * Add examples of consuming commmon 3rd party services via OAuth, i.e. twitter, facebook, goodreads etc.
  * Write documentation/blog posts for each of the examples - showing the essentials of how they work.
  
-  [1]: http://github.com/bittercoder/DevDefined.OAuth/raw/master/artifacts/DevDefinedOAuthTitle.png
+  [1]: https://github.com/bittercoder/DevDefined.OAuth/raw/master/artifacts/DevDefinedOAuthTitle.png
   [2]: http://github.com/bittercoder/DevDefined.OAuth
