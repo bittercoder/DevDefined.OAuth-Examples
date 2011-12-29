@@ -46,6 +46,10 @@ namespace ExampleDropBoxUpload
 
             Console.WriteLine("Press enter to continue (will put file into sandbox)");
 
+            Console.ReadLine();
+
+            Console.WriteLine("Uploading...");
+
             const string root = "sandbox"; // can also be "dropbox" (if app has all folders access)
 
             string fileName = "img_" + Guid.NewGuid() + ".png";
@@ -65,6 +69,7 @@ namespace ExampleDropBoxUpload
             Console.WriteLine("Press enter to exit");
 
             Console.ReadLine();
+            
         }
     }
 }
