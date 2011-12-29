@@ -88,7 +88,7 @@ namespace ExampleOpenSocialProvider
           Token = Guid.NewGuid().ToString(),
           TokenSecret = Guid.NewGuid().ToString(),
           UserName = HttpContext.Current.User.Identity.Name,
-          ExpireyDate = DateTime.MaxValue // never expires
+          //ExpireyDate = DateTime.MaxValue // never expires
         };
 
       AccessTokenRepository.SaveToken(accessToken);
