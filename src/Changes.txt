@@ -1,3 +1,9 @@
+14th October 2012
+-----------------
+
+Added example of access Khan Academy API using DevDefined.OAuth, demonstrating how to work around the 
+unusual OAuth flow where reuest token and user authorizations legs are merged together.
+
 23rd July 2009
 --------------
 

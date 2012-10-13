@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Exercises JSON";
+}
+
+<h2>Exercises JSON</h2>
+
+<div id="output">@Html.Raw(@Model)</div>
+
+@section scripts
+{
+<script>        
+    var content = $('#output').html();
+    var parsed = JSON.parse(content);
+    var pretty = JSON.stringify(parsed, null, '    ');
+    $('#output').html('<pre>' + pretty + '</pre>');    
+</script>    
+}
