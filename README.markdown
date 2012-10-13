@@ -4,6 +4,7 @@ Introduction
 ------------
 
 The DevDefined.OAuth-Examples project is a set of examples demonstrating using the DevDefined.OAuth library for implementing OAuth consumers and providers.
+
 The DevDefined.OAuth project can be found here: [2]
 
 Current Examples
@@ -15,7 +16,8 @@ We currently have 4 examples in this project:
  * ExampleOAuthChannel - a simple WCF service - demonstrating an OAuth provider which securies a WCF service.
  * ExampleProviderSite - a simple webforms site - demonstrating an OAuth provider which exposes a simple contacts service via an aspx page (Data.aspx).
  * ExampleOpenSocialProvider - an example showing 2 open social gadgets, one that provides access to requested data via 3-legged OAuth, and another that just validates signed requests.
- 
+ * ExampleKhanAcademyMVC - A rudimentary example of accessing the Khan Academy API, which it's slightly unusual OAuth flow.
+
 Still to do
 -----------
 
